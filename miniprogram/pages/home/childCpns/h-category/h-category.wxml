@@ -1,0 +1,10 @@
+<view class="card-category">
+  <h-card-item 
+    title="{{ item.title }}" 
+    iconPath="{{ item.iconPath }}" 
+    wx:for="{{ categories }}" 
+    wx:key="index"
+    data-index="{{ index }}"
+    bindtap="itemClick"
+  />
+</view>

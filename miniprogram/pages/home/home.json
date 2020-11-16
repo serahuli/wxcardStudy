@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "h-card-category": "/pages/home/childCpns/h-category/h-category"
+  },
+  "navigationBarTitleText": "我的卡证"
+}

@@ -1,0 +1,15 @@
+/* components/h-card-info/h-card-info.wxss */
+.id-info {
+  padding: 20rpx;
+  font-size: 30rpx;
+}
+
+.id-info view {
+  margin-top: 20rpx;
+}
+
+.id-info image {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 60rpx;
+}

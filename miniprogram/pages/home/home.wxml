@@ -1,0 +1,16 @@
+<!--miniprogram/pages/home/home.wxml-->
+<h-header title="我的卡证"/>
+
+<!-- 卡片类型列表 -->
+<h-card-category categories="{{ categories }}"/> 
+
+
+<!-- picker -->
+<picker 
+  range="{{ categories }}" 
+  range-key="title" 
+  bindchange="pickValueChange"
+  class="add-card">
+  <!-- 增加卡片按钮 -->
+  <h-button title="添加卡证" icon="/assets/add.png" />
+</picker>

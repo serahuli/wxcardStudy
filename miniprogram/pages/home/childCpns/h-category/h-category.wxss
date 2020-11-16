@@ -1,0 +1,10 @@
+/* miniprogram/pages/home/home.wxss */
+.card-category {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80rpx 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2rpx solid #36ab60;
+}

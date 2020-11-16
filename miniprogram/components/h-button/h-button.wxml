@@ -1,0 +1,6 @@
+<view class="h-class button" 
+      hover-stay-time="50"
+      hover-class="hover-class">
+  <image src="{{ icon }}" />
+  <text>{{ title }}</text>
+</view>

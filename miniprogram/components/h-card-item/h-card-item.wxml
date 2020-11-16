@@ -1,0 +1,5 @@
+<view class="item">
+  <!-- <image src="{{ iconPath }}" mode="widthFix"/> -->
+  <image src="{{ iconPath }}" />
+  <view>{{ title }}</view>
+</view>

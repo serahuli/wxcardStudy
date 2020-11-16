@@ -1,0 +1,32 @@
+<h-button 
+  title="选择{{ categories[type] }}" 
+  icon="/assets/add.png"
+  h-class="btn-style"
+  bindtap="selectClick" />
+<h-button 
+  title="保存信息"
+  h-class="btn-style save-style"
+  icon="/assets/save.png" 
+  bindtap="saveClick" />
+<h-button 
+  title="复制信息" 
+  h-class="btn-style copy-style"
+  icon="/assets/copy.png"
+  bindtap="copyClick" />
+
+<block  wx:if="{{ idInfo }}">
+  <h-header title="身份证信息" />
+  <h-card-info info="{{ idInfo }}" />
+</block>
+
+<block  wx:if="{{ bankCardInfo }}">
+  <h-header title="身份证信息" />
+  <view class="id-info">
+    <view>卡号：{{ bankCardInfo.cardID }}</view>
+    <view>卡名称：{{ bankCardInfo.cardName }}</view>
+    <view>卡类型：{{ bankCardInfo.cardType }}</view>
+    <view>银行信息：{{ bankCardInfo.cardInfo }}</view>
+    <view>有效期：{{ bankCardInfo.cardDate }}</view>
+    <image src="{{ bankCardInfo.fileID }}" mode="widthFix" />
+  </view>
+</block>

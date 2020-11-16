@@ -1,0 +1,21 @@
+<block wx:for="{{ lists }}" wx:key="index">
+  <h-header title="身份证{{ index + 1 }}信息">
+    <view class="operate-bar">
+      <h-operate-btn 
+        title="复制" 
+        icon="/assets/copy.png" 
+        bgColor="#D34B2C" 
+        data-index="{{ index }}"
+        bindtap="copyClick"
+      />
+      <h-operate-btn 
+        title="删除" 
+        icon="/assets/delete.png" 
+        bgColor="#555" 
+        data-index="{{ index }}"
+        bindtap="deleteClick"
+      />
+    </view>
+  </h-header>
+  <h-card-info info="{{ item }}" showIamge="{{ false }}" />
+</block>

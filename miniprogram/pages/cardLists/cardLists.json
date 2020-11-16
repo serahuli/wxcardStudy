@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "h-operate-btn": "/components/h-operate-btn/h-operate-btn"
+  }
+}

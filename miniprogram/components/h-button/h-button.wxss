@@ -1,0 +1,26 @@
+.button {
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 0 60rpx;
+  border-radius: 8rpx;
+  text-align: center;
+  font-size: 0;
+  background: #36ab60;
+}
+
+.button image {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+
+.button text {
+  color: #fff;
+  margin-left: 30rpx;
+  vertical-align: middle;
+  font-size: 32rpx;
+}
+
+.hover-class {
+  opacity: .8;
+}

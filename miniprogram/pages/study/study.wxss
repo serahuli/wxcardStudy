@@ -1,0 +1,12 @@
+/* pages/study/study.wxss */
+.btn-style {
+  margin-top: 60rpx !important;
+}
+
+.save-style {
+  background: #efb336 !important;
+}
+
+.copy-style {
+  background: #d34b2c !important;
+}

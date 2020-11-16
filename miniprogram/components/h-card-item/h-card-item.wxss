@@ -1,0 +1,16 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30rpx;
+}
+
+.item image {
+  width: 100rpx;
+  height: 75rpx;
+}
+
+.item view {
+  font-size: 40rpx;
+  margin-top: 20rpx;
+}

@@ -1,0 +1,24 @@
+.operate-btn {
+  padding: 0 16rpx;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  border-radius: 10rpx;
+  background-color: #d34b2c;
+  margin-top: 10rpx;
+  margin-right: 16rpx;
+}
+
+.operate-btn image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.operate-btn text {
+  margin-left: 10rpx;
+  color: #fff;
+}
+
+.hover {
+  opacity: .8;
+}

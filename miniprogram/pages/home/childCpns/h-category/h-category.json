@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "h-card-item": "/components/h-card-item/h-card-item"
+  }
+}
